@@ -1,0 +1,7 @@
+[user]
+        name = wcastand
+        email = wcastand@gmail.com
+[init]
+        defaultBranch = main
+[pull]
+        rebase = true
