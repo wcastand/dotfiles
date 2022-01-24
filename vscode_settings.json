@@ -1,0 +1,61 @@
+{
+  "workbench.colorTheme": "Rosé Pine Dawn",
+  "prettier.printWidth": 150,
+  "prettier.requireConfig": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "html.format.endWithNewline": true,
+  "javascript.format.semicolons": "remove",
+  "typescript.format.semicolons": "remove",
+  "editor.tabSize": 2,
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "telemetry.telemetryLevel": "crash",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "workbench.startupEditor": "newUntitledFile",
+  "lit-html.tags": ["html", "template"],
+  "explorer.confirmDragAndDrop": false,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.suggest.insertMode": "replace",
+    "gitlens.codeLens.scopes": ["document"],
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.suggest.insertMode": "replace",
+    "gitlens.codeLens.scopes": ["document"]
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "matklad.rust-analyzer"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.external.osxExec": "Alacritty.app",
+  "security.workspace.trust.emptyWindow": false,
+  "security.workspace.trust.enabled": false,
+  "workbench.iconTheme": "rose-pine-icons",
+  "editor.tokenColorCustomizations": {
+    "[Rosé Pine]": {
+      "textMateRules": [
+        {
+          "scope": ["comment", "entity.other.attribute-name", "entity.other.inherited-class", "support.function", "variable", "meta.directive.vue"],
+          "settings": {
+            "fontStyle": ""
+          }
+        }
+      ]
+    }
+  },
+  "editor.fontSize": 13,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active"
+}
