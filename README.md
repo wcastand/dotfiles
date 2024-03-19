@@ -1,0 +1,29 @@
+# Softwares
+
+- 1Password
+- Alacritty
+- Android studio
+- AppCleaner
+- Arc
+- Bezel (mirror device)
+- Discord
+- Expo Orbit
+- Figma
+- Chrome
+- Hexnode UEM (work)
+- HyperKey
+- ImageOptim
+- Linear
+- Mongoldb compass
+- Moom
+- Monitor control
+- NextDNS
+- Onyx
+- Raycast
+- RunCat
+- Slack
+- Spotify
+- Tailscale (work)
+- The unarchiver
+- VS Code
+- Xcode

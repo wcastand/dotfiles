@@ -1,7 +1,9 @@
+# This is Git's per-user configuration file.
 [user]
-        name = wcastand
-        email = wcastand@gmail.com
-[init]
-        defaultBranch = main
-[pull]
-        rebase = true
+# Please adapt and uncomment the following lines:
+	name = wcastand
+	email = wcastand@gmail.com
+[push]
+	autoSetupRemote = true
+[core]
+	ignorecase = false

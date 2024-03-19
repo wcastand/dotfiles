@@ -1,53 +1,27 @@
 {
   "workbench.colorTheme": "Rosé Pine Dawn",
-  "prettier.printWidth": 150,
-  "prettier.requireConfig": true,
-  "prettier.singleQuote": true,
-  "prettier.trailingComma": "all",
   "editor.minimap.enabled": false,
   "editor.formatOnSave": true,
-  "html.format.endWithNewline": true,
-  "javascript.format.semicolons": "remove",
-  "typescript.format.semicolons": "remove",
   "editor.tabSize": 2,
-  "typescript.disableAutomaticTypeAcquisition": true,
   "telemetry.telemetryLevel": "crash",
-  "javascript.updateImportsOnFileMove.enabled": "never",
   "workbench.startupEditor": "newUntitledFile",
-  "lit-html.tags": ["html", "template"],
   "explorer.confirmDragAndDrop": false,
-  "workbench.editorAssociations": {
-    "*.ipynb": "jupyter.notebook.ipynb"
-  },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[html]": {
-    "editor.suggest.insertMode": "replace",
-    "gitlens.codeLens.scopes": ["document"],
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.quickSuggestions": {
-      "strings": true
-    },
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.suggest.insertMode": "replace",
-    "gitlens.codeLens.scopes": ["document"]
-  },
-  "[rust]": {
-    "editor.defaultFormatter": "matklad.rust-analyzer"
-  },
-  "diffEditor.ignoreTrimWhitespace": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.external.osxExec": "Alacritty.app",
-  "security.workspace.trust.emptyWindow": false,
-  "security.workspace.trust.enabled": false,
-  "workbench.iconTheme": "rose-pine-icons",
+  "workbench.iconTheme": "vscode-icons",
   "editor.tokenColorCustomizations": {
     "[Rosé Pine]": {
       "textMateRules": [
         {
-          "scope": ["comment", "entity.other.attribute-name", "entity.other.inherited-class", "support.function", "variable", "meta.directive.vue"],
+          "scope": [
+            "comment",
+            "entity.other.attribute-name",
+            "entity.other.inherited-class",
+            "support.function",
+            "variable",
+            "meta.directive.vue"
+          ],
           "settings": {
             "fontStyle": ""
           }
@@ -55,7 +29,71 @@
       ]
     }
   },
-  "editor.fontSize": 13,
+  "editor.fontSize": 16,
   "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active"
+  "editor.guides.bracketPairs": "active",
+  "editor.inlineSuggest.enabled": true,
+  "githubPullRequests.createOnPublishBranch": "never",
+  "githubPullRequests.terminalLinksHandler": "vscode",
+  "vsicons.dontShowNewVersionMessage": true,
+  "githubPullRequests.pullBranch": "never",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
+  },
+  "redhat.telemetry.enabled": false,
+  "yaml.format.singleQuote": true,
+  "editor.fontFamily": "Geist Mono, Cartograph CF, Menlo, Monaco, 'Courier New', monospace",
+  "editor.defaultFormatter": "biomejs.biome",
+  "workbench.sideBar.location": "right",
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "keep",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.autoStash": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "$(capture).test.ts, $(capture).test.tsx, $(capture).test.node.ts, $(capture).test.node.tsx, $(capture).test.native.ts, $(capture).test.native.tsx, $(capture).test.ios.ts, $(capture).test.ios.tsx, $(capture).test.web.ts, $(capture).test.web.tsx, $(capture).test.android.ts, $(capture).test.android.tsx, ${capture}.native.tsx, ${capture}.ios.tsx, ${capture}.android.tsx, ${capture}.web.tsx, ${capture}.native.ts, ${capture}.ios.ts, ${capture}.android.ts, ${capture}.web.ts, ${capture}.native.js, ${capture}.ios.js, ${capture}.android.js, ${capture}.web.js, ${capture}.native.jsx, ${capture}.ios.jsx, ${capture}.android.jsx, ${capture}.web.jsx, ${capture}.typegen.ts",
+    "*.js": "${capture}.js.map, ${capture}.d.ts, ${capture}.d.ts.map",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "$(capture).test.ts, $(capture).test.tsx, $(capture).test.node.ts, $(capture).test.node.tsx, $(capture).test.native.ts, $(capture).test.native.tsx, $(capture).test.ios.ts, $(capture).test.ios.tsx, $(capture).test.web.ts, $(capture).test.web.tsx, $(capture).test.android.ts, $(capture).test.android.tsx, ${capture}.native.tsx, ${capture}.ios.tsx, ${capture}.android.tsx, ${capture}.web.tsx, ${capture}.native.ts, ${capture}.ios.ts, ${capture}.android.ts, ${capture}.web.ts, ${capture}.native.js, ${capture}.ios.js, ${capture}.android.js, ${capture}.web.js, ${capture}.native.jsx, ${capture}.ios.jsx, ${capture}.android.jsx, ${capture}.web.jsx, ${capture}.typegen.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml",
+    "*.mts": "${capture}.typegen.ts",
+    "*.cts": "${capture}.typegen.ts"
+  },
+  "files.associations": {
+    "*.json": "json"
+  },
+  "git.ignoreRebaseWarning": true,
+  "typescript.tsserver.log": "off",
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "typescript.surveys.enabled": false,
+  "typescript.tsserver.watchOptions": {
+    "synchronousWatchDirectory": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "mdb.confirmRunAll": false,
+  "mdb.sendTelemetry": false,
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "window.nativeTabs": true,
+  "window.commandCenter": false,
+  "window.customTitleBarVisibility": "never"
 }
